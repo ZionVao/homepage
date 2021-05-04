@@ -4,36 +4,64 @@
     vertical-align: text-bottom;
   }
   
-  .bg-1, .bg-2, .bg-3, .bg-4, .bg-5 {
-    height: 100%;
-    position: absolute;
-    width: calc(100% / 5);
-  }
+h3 svg {
+  fill: currentColor;
+  height: 2.1428rem;
+  vertical-align: text-bottom;
+}
 
-  
-  .bg-1 {
-    background: linear-gradient(135deg, #85c9c8, #d4fee6, #e5fdc9) ;
-    left: calc((100% / 5) * 0 );
+.bg-1, .bg-2, .bg-3, .bg-4, .bg-5 {
+  height: 100%;
+  position: absolute;
+  width: calc(100% / 5);
+}
 
-  }
-  .bg-2 {
-    background: linear-gradient(to bottom, #c1ebe1, #93b4ac);
-    left: calc((100% / 5) * 1 );
 
-  }
-  .bg-3 {
-    background: -webkit-radial-gradient(top left, ellipse, #fde152 0%, transparent),
-      linear-gradient(to bottom, #fa715f, #fa715f 60%, #db1174, #9b4ca7);
-      left: calc((100% / 5) * 2 );
-  }
-  .bg-4 {
-    background: linear-gradient(5deg, #556270, #c44d58);
-    left: calc((100% / 5) * 3 );
+.bg-1 {
+  background: linear-gradient(135deg, #85c9c8, #d4fee6, #e5fdc9) ;
+  left: calc((100% / 5) * 0 );
 
-  }
-  .bg-5 {
-    background: linear-gradient(5deg, #036564, #033649);
-    left: calc((100% / 5) * 4 );
+}
+.bg-2 {
+  background: linear-gradient(to bottom, #c1ebe1, #93b4ac);
+  left: calc((100% / 5) * 1 );
 
+}
+.bg-3 {
+  background: -webkit-radial-gradient(top left, ellipse, #fde152 0%, transparent),
+    linear-gradient(to bottom, #fa715f, #fa715f 60%, #db1174, #9b4ca7);
+    left: calc((100% / 5) * 2 );
+}
+.bg-4 {
+  background: linear-gradient(5deg, #556270, #c44d58);
+  left: calc((100% / 5) * 3 );
+
+}
+.bg-5 {
+  background: linear-gradient(5deg, #036564, #033649);
+  left: calc((100% / 5) * 4 );
+
+}
+
+.avatar {
+  border: 1px solid #85c9c8;
+  animation: animate-avatar 5s linear infinite;
+}
+@keyframes animate-avatar {
+  0% {
+      border-color: #93b4ac;
+      box-shadow: 4px 3px 13px #fde152;
   }
-  
+  33% {
+      border-color: #fa715f;
+      box-shadow: 3px 3px 13px #fa715f;
+  }
+  66% {
+      border-color: #db1174;
+      box-shadow: 3px 3px 13px #9b4ca7;
+  }
+  100% {
+      border-color: #556270;
+      box-shadow: 3px 3px 13px #ed6dab;
+  }
+}
