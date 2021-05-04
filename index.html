@@ -1,11 +1,259 @@
 <!DOCTYPE html>
 <html>
+  
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Vasylchuk Anastasiia">
+    <meta name=description content="This site resume Elon Musk">
     <title>Résumé</title>
+    <link rel="stylesheet" href="stylesheets.css">
     <link rel="stylesheet" href="https://binary-studio-academy.github.io/stage-2/assets/stylesheets/base.css">
   </head>
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+
+      <section class="bg-1"></section>
+      <section class="bg-2"></section>
+      <section class="bg-3"></section>
+      <section class="bg-4"></section>
+      <section class="bg-5"></section>
+
+      <article>
+        <div class="page" style="border-color: midnightblue;">
+          <div class="stackable grid">
+            <div class="row">
+              <div class="three wide center aligned column">
+
+                <div class="avatar-wrapper">
+                  <object class="avatar" data="https://i.pinimg.com/564x/e5/f5/10/e5f5106e48922eb0c3713f9ef7c7f596.jpg" role="img"  aria-label="My profile picture"></object>
+                </div>
+
+              </div>
+              <div class="thirteen wide column">
+                <div class="stackable grid">
+                  <div class="sixteen wide column">
+                    <h1 class="name">Elon Musk</h1>
+                  <div class="job">full stack System Wizard</div>
+                  <ul class="contacts">
+                    <li>
+                      <a href="https://www.facebook.com/TheElonmusk/" rel="author" class="facebook">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M448 56.7v398.5c0 13.7-11.1 24.7-24.7 24.7H309.1V306.5h58.2l8.7-67.6h-67v-43.2c0-19.6 5.4-32.9 33.5-32.9h35.8v-60.5c-6.2-.8-27.4-2.7-52.2-2.7-51.6 0-87 31.5-87 89.4v49.9h-58.4v67.6h58.4V480H24.7C11.1 480 0 468.9 0 455.3V56.7C0 43.1 11.1 32 24.7 32h398.5c13.7 0 24.8 11.1 24.8 24.7z"/></svg>
+                        <span>ElonMusk</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="mailto:ElonMuskOffice@TeslaMotors.com" rel="author" class="mail">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z"></path></svg>
+                        <span>ElonMuskOffice@TeslaMotors.com</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/ZionVao/homepage" rel="author" class="github">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+                        <span>There could be a link to ElonMusk GitHub</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://twitter.com/elonmusk" rel="author" class="twitter">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
+                        <span>Elon Musk</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="tel:+000000000000" rel="author" class="phone">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+                        <span>+000000000000</span>
+                      </a>
+                    </li>
+                  </div>
+                  <div class="sixteen wide mobile only column">
+                    <div class="divider"></div>
+                  </div>
+                  <div class="sixteen wide column">
+                    <h2>Résumé</h2>
+                    <p>&mdash; Hi there! I’m a Technoking of Tesla, Imperator of Mars 😉
+                      Also I’m a the founder, <a href="https://en.wikipedia.org/wiki/Chief_executive_officer" rel="external">CEO</a>, 
+                      <a href="https://en.wikipedia.org/wiki/Chief_technology_officer" rel="external">CTO</a>, and chief designer of 
+                      <a href="https://en.wikipedia.org/wiki/SpaceX" rel="external">SpaceX</a>; 
+                      early stage investor, CEO, and product architect of <a href="https://en.wikipedia.org/wiki/Tesla,_Inc.">Tesla, Inc.</a>; 
+                      founder of <a href="https://en.wikipedia.org/wiki/The_Boring_Company" rel="external">The Boring Company</a>; 
+                      co-founder of <a href="https://en.wikipedia.org/wiki/Neuralink">Neuralink</a>; 
+                      and co-founder and initial co-chairman of <a href="https://en.wikipedia.org/wiki/OpenAI" rel="external">OpenAI</a>. 
+                      The richest people in the world.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="sixteen wide column">
+                <div class="fat divider"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="ten wide column">
+                <h3>Work Experience</h3>
+                <!-- <h6>Recent</h6> -->
+                <ul class="timeline">
+                  <li>
+                    <p><em>June 2002 - Present, Howthorne, USA</em></p>
+                    <p><strong>Founder, CEO & Lead Designer</strong></p>
+                    <p>SpaceX - Space Exploration Technologies</p>
+                    <p>Accomplishments</p>
+                    <ul>
+                      <li>Successfully launched Falcon Heavy, the most powerful operational
+                        rocket in the world by a factor of two, with the ability to lift into
+                        orbit nearly 64 metric tons (141,000 lb) — a mass greater than a
+                        737 jetliner loaded with passengers, crew, luggage and fuel.</li>
+                      <li>Plans to reduce space transportation costs to enable people to
+                        colonize Mars.</li>
+                      <li>Developed the Falcon 9 spacecraft which replaced the space
+                        shuttle when it retired in 2011.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>December 2016 - Present, Howthorne, USA</em></p>
+                    <p><strong>Founder</strong></p>
+                    <p>The Boring Company</p>
+                    <p>Accomplishments</p>
+                    <ul>
+                      <li>Raised SIOm by selling 20.000 flamethrowers in 4 days.</li>
+                      <li>Raised $1m by selling 50.00 baseball caps.</li>
+                      <li>Hyperloop — an ultra high-speed underground public
+                        transportation system in which passengers are transported on
+                        autonomous electric pods traveling at 600+ miles per hour in a
+                        pressurized cabin.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>2014 - Present, San Mateo, USA</em></p>
+                    <p><strong>CEO and Product Architect</strong></p>
+                    <p>Tesla Inc.</p>
+                    <p>Accomplishments</p>
+                    <ul>
+                      <li>Global sales passed 250,000 units in September 2017.</li>
+                      <li>Consumer Reports named Tesla as the top American car brand and
+                        ranked it 8th among global carmakers in February 2017.</li>
+                      <li>Topped Consumer Reports Annual Owner Satisfaction Survey at
+                        in 2016.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>June 2006 - Present, San Mateo, USA</em></p>
+                    <p><strong>Co-founder and Former Chairman</strong></p>
+                    <p>SolarCity (subsidiary of Tesla Inc.)</p>
+                    <p>Accomplishments</p>
+                    <ul>
+                      <li>Merged the company with Tesla Inc. and now offers energy
+                        storage services through Tesla, including a turnkey residential
+                        battery backup service that incorporates Tesla's Powerwall.</li>
+                      <li>In 2015, installed 870MW of solar power, approximately 28% of
+                        non-utility solar installation in the U.S. that year.</li>
+                    </ul>
+                  </li>
+                  <li>
+                    <p><em>July 2016 - Present, San Francisco, USA</em></p>
+                    <p><strong>Founder & CEO</strong></p>
+                    <p>Neurolink</p>
+                    <p>Vision</p>
+                    <ul>
+                      <li>A company aims to make devices to treat serious brain
+                        diseases in the short-term, with the eventual goal of human
+                        enhancement.</li>
+                    </ul>
+                  </li>
+                </ul>
+                <!-- <h6>Back then</h6> -->
+                <!-- Timeline (older events) -->
+              </div>
+              <div class="six wide column">
+                
+                <section>
+                  <h3>Languages</h3>
+                  <p class="tags small">
+                    <span>ENGLISH</span>
+                    <span>AFRIKAANS</span>
+                  </p>
+                </section>
+
+                <section>
+                  <h3>SKILLS & COMPETENCIES</h3>
+                  <p class="tags small bulleted">
+                    <span class="tag">Thinking through first principles</span>
+                    <span class="tag">Marketing</span>
+                    <span class="tag">Micromanagement</span>
+                    <span class="tag">Extraterrestrial Life</span>
+                    <span class="tag">Goal oriented</span>
+                    <span class="tag">Resiliency</span>
+                    <span class="tag">Future focused</span>
+                    <span class="tag">Leadership</span>
+                    <span class="tag">Creativity</span>
+                    <span class="tag">Persistence</span>
+                    <span class="tag">Time Management</span>
+                    <span class="tag">Turning ideas into companies</span>
+                    <span class="tag">Long-term thiriking</span>
+                  </p>
+                </section>
+
+                <section>
+                  <h3>Character</h3>
+                  <p>COMPETITIVE VIGOROUS FOCUSED <a href="https://www.16personalities.com/intj-personality" rel="external">ARCHITECT</a></p>
+                </section>
+
+                <section>
+                  <h3>Likes</h3>
+                  <p class="tags small bulleted">
+                    <span class="tag">Physics</span>
+                    <span class="tag">Sustainability</span>
+                    <span class="tag">Twitter</span>
+                    <span class="tag">Extraterrestrial Life</span>
+                    <span class="tag">Alternative Energy</span>
+                    <span class="tag">Space Engineering</span>
+                    <span class="tag">Reading</span>
+                    <span class="tag">Video Games</span>
+                    <span class="tag">AI</span>
+                    <span class="tag">Host Meme Review&#x1f603;</span>
+                  </p>
+                </section>
+
+                <!-- Dislikes -->
+
+                <section>
+                  <h3>Wants&#x1f97a;</h3>
+                  <p class="tags small bulleted">
+                    <span class="tag">MAKE WORLD BETTER</span>
+                    <span class="tag">FLY TO MARS</span>
+                    <span class="tag">TO BE BRAVE</span>
+                    <span class="tag">TO BECOME A SUPERHERO</span>
+                  </p>
+                </section>
+
+                <section>
+                  <h3>Education</h3>
+                  <ul class="timeline">
+                    <li>
+                      <div><em>September 1992 &ndash; Jule 1995</em></div>
+                      <div><strong>Bachelor of Science in Economics</strong> at Wharton School of the University of Pennsylvania</div>
+                    </li>
+                    <li>
+                      <div><em>September 1992 &ndash; Jule 1995</em></div>
+                      <div><strong>Bachelor of Science in Physics</strong> at University of Pennsylvania</div>
+                    </li>
+                  </ul>
+                </section>
+
+                <section>
+                  <h3>Articles<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 15h13v1h-13v-1zm4-4v3h5v-3h-5zm-1 0h-3v1h3v-1zm-3 3h3v-1h-3v1zm13-1h-3v1h3v-1zm-6.951-6.573v-.396h-1.215v1.941h1.255v-.396h-.78v-.406h.698v-.393h-.698v-.35h.74zm1.396.261l.238 1.284h.5l.501-1.941h-.482l-.249 1.32-.238-1.32h-.492l-.27 1.345-.24-1.345h-.505l.46 1.941h.506l.271-1.284zm1.901.916c-.149 0-.324-.043-.466-.116l-.024-.013-.098.398.015.008c.102.058.318.119.547.119.581 0 .788-.328.788-.61 0-.272-.161-.458-.507-.586-.254-.096-.338-.145-.338-.247 0-.098.1-.161.254-.161.136 0 .266.03.388.088l.023.011.107-.39-.015-.007c-.145-.065-.311-.098-.495-.098-.442 0-.739.239-.739.593 0 .262.181.458.535.581.227.081.304.144.304.247 0 .117-.102.183-.279.183zm-5.325.368h.485v-1.941h-.438v1.189l-.641-1.189h-.535v1.941h.438v-1.327l.691 1.327zm8.979 1.028h-13v1h13v-1zm0 2h-3v1h3v-1zm-17-9v17.199c0 .771-1 .771-1 0v-15.199h-2v15.98c0 1.115.905 2.02 2.02 2.02h19.958c1.117 0 2.022-.904 2.022-2.02v-17.98h-21zm19 16h-17v-14h17v14z"/></svg></h3>
+                  <p><a href="https://www.nytimes.com/topic/person/elon-musk" rel="external">Elon Musk News: The Latest - The New York Times</a></p>
+                  <p><a href="https://www.bbc.com/news/topics/c302m85q53mt/elon-musk" rel="external">Elon Musk - BBC News</a></p>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
   </body>
 </html>
